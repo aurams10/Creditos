@@ -1,0 +1,4 @@
+RUN	SmokeTest.getCreditDetails	getcreditdetails	1569531365635	 	3.0.2
+USER	SmokeTest	1	START	1569531367501	1569531367501
+ERROR	SmokeTest: Failed to build request: No attribute named 'storeId' is defined 	1569531367516
+USER	SmokeTest	1	END	1569531367501	1569531367525

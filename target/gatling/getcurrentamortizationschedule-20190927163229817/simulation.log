@@ -1,0 +1,4 @@
+RUN	SmokeTest.getCurrentAmortizationSchedule	getcurrentamortizationschedule	1569601949817	5	3.0.2
+USER	SmokeTest	1	START	1569601951779	1569601951779
+ERROR	SmokeTest: Failed to build request: No attribute named 'creditValue' is defined 	1569601951796
+USER	SmokeTest	1	END	1569601951779	1569601951805

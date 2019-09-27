@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.getCurrentAmortizationSchedule",
+  "simulationId": "getcurrentamortizationschedule",
+  "start": 1569602100586,
+  "description": "5",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}

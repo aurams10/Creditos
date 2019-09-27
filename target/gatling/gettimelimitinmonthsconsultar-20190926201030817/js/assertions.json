@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.getTimeLimitInMonthsConsultar",
+  "simulationId": "gettimelimitinmonthsconsultar",
+  "start": 1569528630817,
+  "description": "",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}

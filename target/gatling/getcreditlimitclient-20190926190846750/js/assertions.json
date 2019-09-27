@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.getCreditLimitClient",
+  "simulationId": "getcreditlimitclient",
+  "start": 1569524926750,
+  "description": "a",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}

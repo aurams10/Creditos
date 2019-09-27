@@ -1,0 +1,4 @@
+RUN	SmokeTest.getCurrentAmortizationSchedule	getcurrentamortizationschedule	1569600305647	 	3.0.2
+USER	SmokeTest	1	START	1569600307645	1569600307645
+ERROR	SmokeTest: Failed to build request: No attribute named 'calculationDate' is defined 	1569600307660
+USER	SmokeTest	1	END	1569600307645	1569600307670
