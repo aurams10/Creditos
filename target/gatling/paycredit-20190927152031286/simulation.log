@@ -1,4 +1,0 @@
-RUN	SmokeTest.payCredit	paycredit	1569597631286	 	3.0.2
-USER	SmokeTest	1	START	1569597633158	1569597633158
-ERROR	SmokeTest: Failed to build request: No attribute named 'creditId' is defined 	1569597633185
-USER	SmokeTest	1	END	1569597633158	1569597633196

@@ -1,4 +1,0 @@
-RUN	SmokeTest.payCredit	paycredit	1569597507421	 	3.0.2
-USER	SmokeTest	1	START	1569597509349	1569597509349
-ERROR	SmokeTest: Failed to build request: No attribute named 'storeId' is defined 	1569597509378
-USER	SmokeTest	1	END	1569597509349	1569597509406
