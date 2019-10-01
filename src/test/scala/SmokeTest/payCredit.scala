@@ -19,7 +19,7 @@ class payCredit extends Simulation{
     .feed(data)
     .exec(http(requestName="SmokeTest").post("/payment/payCredit").body(StringBody("""{"storeId":"${storeId}","userId":"${userId}",
  "calculationDate":"${calculationDate}", "creditId":"${creditId}", "totalValuePaid":"${totalValuePaid}",
-  "bankAccount":"${bankAccount}", "userName":"${userName}""")).asJson
+  "bankAccount":"${bankAccount}", "userName":"${userName}"}""")).asJson
       .check(bodyString.saveAs("myresponse")))
     .exec {session =>
       val response1 = session("myresponse").as[String]

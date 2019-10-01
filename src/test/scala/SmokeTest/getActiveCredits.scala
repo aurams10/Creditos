@@ -23,7 +23,16 @@ class getActiveCredits extends Simulation{
   val response1 = session("myresponse").as[String]
   println(response1)
   session}
-  setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
+
+  setUp(scn.inject(constantConcurrentUsers(6) during  (10)).protocols(httpConf)).maxDuration(50)
+
+
+ // setUp(scn.inject(constantUsersPerSec(3) during  (10)).protocols(httpConf)).maxDuration(50)
+
+  //setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
+
+  //constantUsersPerSec
   //setUp(scn.inject(rampConcurrentUsers(5) to  (10) during(60)).protocols(httpConf)).maxDuration(120)
+  //setUp(scn.inject(rampUsersPerSec(5) to  (60) during(120)).protocols(httpConf)).maxDuration(240)
 
 }

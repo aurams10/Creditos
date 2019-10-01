@@ -11,12 +11,12 @@ class requestCancelPayment extends Simulation{
   val mapRequest = Map("SCOrigen" -> "Staging", "SCLocation" -> "1,1","country" -> "co","Ocp-Apim-Subscription-Key" -> "47feca78a0f14aa6a46e656cf1d072b1","Content-Type" -> "application/json")
 
   val httpConf= http
-    .baseUrl("https://api.credinet.co/credits")
+    .baseUrl("https://api.credinet.co")
     .headers(mapRequest)
   val scn=scenario(scenarioName = "SmokeTest")
     .feed(data)
     .exec(http(requestName="SmokeTest").post("/cancels/requestCancelPayment").body(StringBody("""{"storeId":"${storeId}","reason":"${reason}",
- "paymentId":"${paymentId}", "userId":"${userId}", "userName":"${userName}""")).asJson
+ "paymentId":"${paymentId}", "userId":"${userId}", "userName":"${userName}"}""")).asJson
       .check(bodyString.saveAs("myresponse")))
     .exec {session =>
       val response1 = session("myresponse").as[String]

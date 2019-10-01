@@ -8,7 +8,7 @@ class createCredits extends Simulation{
 
   val data = csv("data/data5.csv").circular
 
-  val mapRequest = Map("SCOrigen" -> "Staging", "SCLocation" -> "1,1","country" -> "co","Ocp-Apim-Subscription-Key" -> "47feca78a0f14aa6a46e656cf1d072b1","Content-Type" -> "application/json")
+  val mapRequest = Map("SCOrigen" -> "Staging", "SCLocation" -> "1,1","country" ->"co","Ocp-Apim-Subscription-Key" -> "47feca78a0f14aa6a46e656cf1d072b1","Content-Type" -> "application/json")
 
   val httpConf= http
     .baseUrl("https://api.credinet.co")

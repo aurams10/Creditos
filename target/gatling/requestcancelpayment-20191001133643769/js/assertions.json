@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.requestCancelPayment",
+  "simulationId": "requestcancelpayment",
+  "start": 1569937003769,
+  "description": "",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}
