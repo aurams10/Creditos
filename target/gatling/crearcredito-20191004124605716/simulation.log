@@ -1,0 +1,227 @@
+RUN	SmokeTest.CrearCredito	crearcredito	1570193165716	 	3.0.2
+USER	SmokeTest	1	START	1570193169035	1570193169035
+USER	SmokeTest	2	START	1570193169217	1570193169217
+USER	SmokeTest	3	START	1570193169392	1570193169392
+USER	SmokeTest	4	START	1570193169553	1570193169553
+USER	SmokeTest	5	START	1570193169720	1570193169720
+USER	SmokeTest	6	START	1570193169886	1570193169886
+REQUEST	5		SmokeTest	1570193169722	1570193175038	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175231
+USER	SmokeTest	5	END	1570193169720	1570193175234
+USER	SmokeTest	7	START	1570193175234	1570193175234
+REQUEST	6		SmokeTest	1570193169887	1570193175720	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	3		SmokeTest	1570193169398	1570193175720	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	2		SmokeTest	1570193169221	1570193175728	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	1		SmokeTest	1570193169076	1570193175734	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	4		SmokeTest	1570193169567	1570193175738	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175742
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175746
+USER	SmokeTest	3	END	1570193169392	1570193175744
+USER	SmokeTest	8	START	1570193175748	1570193175748
+USER	SmokeTest	6	END	1570193169886	1570193175747
+USER	SmokeTest	9	START	1570193175749	1570193175749
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175750
+USER	SmokeTest	2	END	1570193169217	1570193175751
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175752
+USER	SmokeTest	10	START	1570193175752	1570193175752
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193175755
+USER	SmokeTest	1	END	1570193169035	1570193175754
+USER	SmokeTest	11	START	1570193175756	1570193175756
+USER	SmokeTest	4	END	1570193169553	1570193175756
+USER	SmokeTest	12	START	1570193175757	1570193175757
+REQUEST	7		SmokeTest	1570193175236	1570193178620	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193178631
+USER	SmokeTest	7	END	1570193175234	1570193178638
+USER	SmokeTest	13	START	1570193178639	1570193178639
+REQUEST	9		SmokeTest	1570193175758	1570193181429	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	8		SmokeTest	1570193175757	1570193181436	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	10		SmokeTest	1570193175760	1570193181433	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193181449
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193181454
+USER	SmokeTest	9	END	1570193175749	1570193181451
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193181459
+USER	SmokeTest	14	START	1570193181459	1570193181459
+USER	SmokeTest	8	END	1570193175748	1570193181456
+USER	SmokeTest	15	START	1570193181465	1570193181465
+USER	SmokeTest	10	END	1570193175752	1570193181461
+USER	SmokeTest	16	START	1570193181468	1570193181468
+REQUEST	12		SmokeTest	1570193175763	1570193181745	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193181750
+USER	SmokeTest	12	END	1570193175757	1570193181751
+USER	SmokeTest	17	START	1570193181752	1570193181752
+REQUEST	11		SmokeTest	1570193175762	1570193183522	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193183531
+USER	SmokeTest	11	END	1570193175756	1570193183533
+USER	SmokeTest	18	START	1570193183539	1570193183539
+REQUEST	13		SmokeTest	1570193178645	1570193183721	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193183750
+USER	SmokeTest	13	END	1570193178639	1570193183762
+USER	SmokeTest	19	START	1570193183765	1570193183765
+REQUEST	16		SmokeTest	1570193181477	1570193187525	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193187529
+USER	SmokeTest	16	END	1570193181468	1570193187530
+USER	SmokeTest	20	START	1570193187531	1570193187531
+REQUEST	15		SmokeTest	1570193181474	1570193187636	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193187642
+USER	SmokeTest	15	END	1570193181465	1570193187643
+USER	SmokeTest	21	START	1570193187646	1570193187646
+REQUEST	14		SmokeTest	1570193181469	1570193187836	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193187842
+USER	SmokeTest	14	END	1570193181459	1570193187843
+USER	SmokeTest	22	START	1570193187845	1570193187845
+REQUEST	17		SmokeTest	1570193181757	1570193187923	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193187927
+USER	SmokeTest	17	END	1570193181752	1570193187928
+USER	SmokeTest	23	START	1570193187929	1570193187929
+REQUEST	18		SmokeTest	1570193183545	1570193188343	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	19		SmokeTest	1570193183773	1570193188343	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193188351
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193188355
+USER	SmokeTest	18	END	1570193183539	1570193188351
+USER	SmokeTest	24	START	1570193188356	1570193188356
+USER	SmokeTest	19	END	1570193183765	1570193188357
+USER	SmokeTest	25	START	1570193188358	1570193188358
+REQUEST	21		SmokeTest	1570193187648	1570193193424	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193434
+USER	SmokeTest	21	END	1570193187646	1570193193438
+USER	SmokeTest	26	START	1570193193440	1570193193440
+REQUEST	20		SmokeTest	1570193187533	1570193193533	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193538
+USER	SmokeTest	20	END	1570193187531	1570193193539
+USER	SmokeTest	27	START	1570193193541	1570193193541
+REQUEST	23		SmokeTest	1570193187932	1570193193594	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193599
+USER	SmokeTest	23	END	1570193187929	1570193193600
+USER	SmokeTest	28	START	1570193193603	1570193193603
+REQUEST	22		SmokeTest	1570193187847	1570193193629	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193632
+USER	SmokeTest	22	END	1570193187845	1570193193633
+USER	SmokeTest	29	START	1570193193633	1570193193633
+REQUEST	24		SmokeTest	1570193188360	1570193193740	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193747
+USER	SmokeTest	24	END	1570193188356	1570193193749
+USER	SmokeTest	30	START	1570193193751	1570193193751
+REQUEST	25		SmokeTest	1570193188361	1570193193987	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193193991
+USER	SmokeTest	25	END	1570193188358	1570193193995
+USER	SmokeTest	31	START	1570193193996	1570193193996
+REQUEST	31		SmokeTest	1570193193997	1570193198422	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198431
+USER	SmokeTest	31	END	1570193193996	1570193198432
+USER	SmokeTest	32	START	1570193198433	1570193198433
+REQUEST	30		SmokeTest	1570193193756	1570193198555	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	28		SmokeTest	1570193193606	1570193198557	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198564
+USER	SmokeTest	30	END	1570193193751	1570193198565
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198569
+USER	SmokeTest	33	START	1570193198568	1570193198568
+USER	SmokeTest	28	END	1570193193603	1570193198570
+USER	SmokeTest	34	START	1570193198577	1570193198577
+REQUEST	29		SmokeTest	1570193193636	1570193198832	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	27		SmokeTest	1570193193548	1570193198838	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	26		SmokeTest	1570193193444	1570193198829	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198844
+USER	SmokeTest	29	END	1570193193633	1570193198845
+USER	SmokeTest	35	START	1570193198848	1570193198848
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198848
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193198851
+USER	SmokeTest	27	END	1570193193541	1570193198849
+USER	SmokeTest	36	START	1570193198853	1570193198853
+USER	SmokeTest	26	END	1570193193440	1570193198853
+USER	SmokeTest	37	START	1570193198855	1570193198855
+REQUEST	33		SmokeTest	1570193198579	1570193202548	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193202559
+USER	SmokeTest	33	END	1570193198568	1570193202562
+USER	SmokeTest	38	START	1570193202566	1570193202566
+REQUEST	32		SmokeTest	1570193198438	1570193202661	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193202663
+USER	SmokeTest	32	END	1570193198433	1570193202664
+USER	SmokeTest	39	START	1570193202664	1570193202664
+REQUEST	35		SmokeTest	1570193198854	1570193202836	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193202839
+USER	SmokeTest	35	END	1570193198848	1570193202840
+USER	SmokeTest	40	START	1570193202841	1570193202841
+REQUEST	37		SmokeTest	1570193198857	1570193202856	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193202859
+USER	SmokeTest	37	END	1570193198855	1570193202860
+USER	SmokeTest	41	START	1570193202861	1570193202861
+REQUEST	36		SmokeTest	1570193198855	1570193203068	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	34		SmokeTest	1570193198583	1570193203082	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193203115
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193203117
+USER	SmokeTest	36	END	1570193198853	1570193203117
+USER	SmokeTest	42	START	1570193203118	1570193203118
+USER	SmokeTest	34	END	1570193198577	1570193203118
+USER	SmokeTest	43	START	1570193203119	1570193203119
+REQUEST	39		SmokeTest	1570193202665	1570193207029	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207036
+USER	SmokeTest	39	END	1570193202664	1570193207037
+USER	SmokeTest	44	START	1570193207038	1570193207038
+REQUEST	38		SmokeTest	1570193202571	1570193207049	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207057
+USER	SmokeTest	38	END	1570193202566	1570193207059
+USER	SmokeTest	45	START	1570193207063	1570193207063
+REQUEST	42		SmokeTest	1570193203122	1570193207534	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207542
+USER	SmokeTest	42	END	1570193203118	1570193207543
+USER	SmokeTest	46	START	1570193207544	1570193207544
+REQUEST	43		SmokeTest	1570193203125	1570193207625	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207673
+USER	SmokeTest	43	END	1570193203119	1570193207674
+REQUEST	41		SmokeTest	1570193202863	1570193207670	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207677
+USER	SmokeTest	47	START	1570193207674	1570193207674
+USER	SmokeTest	41	END	1570193202861	1570193207677
+USER	SmokeTest	48	START	1570193207679	1570193207679
+REQUEST	40		SmokeTest	1570193202843	1570193207672	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193207682
+USER	SmokeTest	40	END	1570193202841	1570193207686
+USER	SmokeTest	49	START	1570193207686	1570193207686
+REQUEST	45		SmokeTest	1570193207071	1570193210918	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193210925
+USER	SmokeTest	45	END	1570193207063	1570193210927
+USER	SmokeTest	50	START	1570193210928	1570193210928
+REQUEST	48		SmokeTest	1570193207681	1570193211619	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193211623
+USER	SmokeTest	48	END	1570193207679	1570193211624
+USER	SmokeTest	51	START	1570193211624	1570193211624
+REQUEST	46		SmokeTest	1570193207551	1570193211827	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	49		SmokeTest	1570193207688	1570193211834	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193211854
+USER	SmokeTest	46	END	1570193207544	1570193211867
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193211868
+USER	SmokeTest	52	START	1570193211868	1570193211868
+USER	SmokeTest	49	END	1570193207686	1570193211869
+USER	SmokeTest	53	START	1570193211873	1570193211873
+REQUEST	47		SmokeTest	1570193207679	1570193212525	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193212547
+USER	SmokeTest	47	END	1570193207674	1570193212548
+USER	SmokeTest	54	START	1570193212549	1570193212549
+REQUEST	44		SmokeTest	1570193207042	1570193214632	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193214657
+USER	SmokeTest	44	END	1570193207038	1570193214659
+USER	SmokeTest	55	START	1570193214672	1570193214672
+REQUEST	50		SmokeTest	1570193210932	1570193216530	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193216533
+USER	SmokeTest	50	END	1570193210928	1570193216534
+USER	SmokeTest	56	START	1570193216534	1570193216534
+REQUEST	51		SmokeTest	1570193211627	1570193217022	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193217025
+USER	SmokeTest	51	END	1570193211624	1570193217025
+USER	SmokeTest	57	START	1570193217025	1570193217025
+REQUEST	52		SmokeTest	1570193211873	1570193217418	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193217431
+USER	SmokeTest	52	END	1570193211868	1570193217438
+USER	SmokeTest	58	START	1570193217441	1570193217441
+REQUEST	54		SmokeTest	1570193212557	1570193217528	KO	jsonPath($.data.token.value).find.exists, found nothing
+REQUEST	53		SmokeTest	1570193211877	1570193217531	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193217541
+USER	SmokeTest	54	END	1570193212549	1570193217543
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193217546
+USER	SmokeTest	59	START	1570193217546	1570193217546
+USER	SmokeTest	53	END	1570193211873	1570193217548
+USER	SmokeTest	60	START	1570193217553	1570193217553
+REQUEST	55		SmokeTest	1570193214677	1570193218245	KO	jsonPath($.data.token.value).find.exists, found nothing
+ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570193218253
+USER	SmokeTest	55	END	1570193214672	1570193218256
+USER	SmokeTest	61	START	1570193218257	1570193218257
