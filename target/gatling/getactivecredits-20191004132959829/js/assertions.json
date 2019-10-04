@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.getActiveCredits",
+  "simulationId": "getactivecredits",
+  "start": 1570195799829,
+  "description": "",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}

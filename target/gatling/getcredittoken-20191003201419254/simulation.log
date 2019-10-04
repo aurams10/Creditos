@@ -1,4 +1,0 @@
-RUN	SmokeTest.getCreditToken	getcredittoken	1570133659254	 	3.0.2
-USER	SmokeTest	1	START	1570133661600	1570133661600
-REQUEST	1		SmokeTest	1570133661662	1570133663512	KO	jsonPath(value).find.exists extraction crashed: '$' expected but 'v' found
-USER	SmokeTest	1	END	1570133661600	1570133663595

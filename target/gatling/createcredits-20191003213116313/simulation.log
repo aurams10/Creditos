@@ -1,4 +1,0 @@
-RUN	SmokeTest.createCredits	createcredits	1570138276313	 	3.0.2
-USER	SmokeTest	1	START	1570138278335	1570138278335
-REQUEST	1		SmokeTest	1570138278386	1570138279453	KO	jsonPath($.data.token.value).find.exists, found nothing
-USER	SmokeTest	1	END	1570138278335	1570138279567

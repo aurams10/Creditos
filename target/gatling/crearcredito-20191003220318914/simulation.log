@@ -1,5 +1,0 @@
-RUN	SmokeTest.CrearCredito	crearcredito	1570140198914	 	3.0.2
-USER	SmokeTest	1	START	1570140201800	1570140201800
-REQUEST	1		SmokeTest	1570140201842	1570140204378	KO	jsonPath($.data.token.value).find.exists, found nothing
-ERROR	SmokeTest: Failed to build request: No attribute named 'value' is defined 	1570140204502
-USER	SmokeTest	1	END	1570140201800	1570140204504
