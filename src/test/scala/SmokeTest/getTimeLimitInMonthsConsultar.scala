@@ -27,6 +27,6 @@ class getTimeLimitInMonthsConsultar extends Simulation{
   // setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
  // setUp(scn.inject(constantConcurrentUsers(6) during  (600)).protocols(httpConf)).maxDuration(50)
 
-
-  setUp(scn.inject(constantUsersPerSec(6) during  (1200)).protocols(httpConf)).maxDuration(1200)
+  setUp(scn.inject(constantConcurrentUsers(6)during  (1200)).protocols(httpConf)).maxDuration(1200)
+ // setUp(scn.inject(constantUsersPerSec(6) during  (1200)).protocols(httpConf)).maxDuration(1200)
 }

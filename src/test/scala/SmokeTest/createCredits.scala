@@ -24,6 +24,7 @@ class createCredits extends Simulation{
   "source":"${source}", "token":"921820", "storeId":"${storeId}", "userId":"${userId}",
   "seller":"${seller}","products":"${products}","invoice":"${invoice}","authMethod":"${authMethod}","userName":"${userName}"}""")).asJson)
 
+  setUp(scn.inject(constantConcurrentUsers(6)during  (1200)).protocols(httpConf)).maxDuration(1200)
 
-  setUp(scn.inject(constantConcurrentUsers(6) during  (1200)).protocols(httpConf)).maxDuration(1200)
+  //setUp(scn.inject(constantConcurrentUsers(6) during  (1200)).protocols(httpConf)).maxDuration(1200)
 }
