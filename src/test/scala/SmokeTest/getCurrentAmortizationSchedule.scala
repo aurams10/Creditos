@@ -30,5 +30,5 @@ class getCurrentAmortizationSchedule extends Simulation{
   //setUp(scn.inject(constantConcurrentUsers(6) during  (600)).protocols(httpConf)).maxDuration(50)
   setUp(scn.
     inject(atOnceUsers(6),nothingFor(5  seconds),heavisideUsers(20) during(600 seconds),rampUsers(10) during(600 seconds)))
-    .protocols(httpConf).maxDuration(120 seconds)
+    .protocols(httpConf).maxDuration(600 seconds)
 }

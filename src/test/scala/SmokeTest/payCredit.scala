@@ -31,6 +31,6 @@ class payCredit extends Simulation{
 
   setUp(scn.
     inject(atOnceUsers(6),nothingFor(5  seconds),heavisideUsers(20) during(600 seconds),rampUsers(10) during(600 seconds)))
-    .protocols(httpConf).maxDuration(120 seconds)
+    .protocols(httpConf).maxDuration(600 seconds)
 
 }
