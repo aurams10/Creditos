@@ -1,0 +1,5 @@
+RUN	SmokeTest.CrearCredito	crearcredito	1570142639907	 	3.0.2
+USER	SmokeTest	1	START	1570142643383	1570142643383
+REQUEST	1		SmokeTest	1570142643446	1570142645458	OK	 
+ERROR	SmokeTest: Failed to build request: No attribute named 'fees' is defined 	1570142645641
+USER	SmokeTest	1	END	1570142643383	1570142645648

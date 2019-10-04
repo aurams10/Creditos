@@ -1,0 +1,5 @@
+RUN	SmokeTest.CrearCredito	crearcredito	1570142861954	 	3.0.2
+USER	SmokeTest	1	START	1570142865113	1570142865113
+REQUEST	1		SmokeTest	1570142865165	1570142867147	OK	 
+ERROR	SmokeTest: Failed to build request: No attribute named 'data' is defined 	1570142867345
+USER	SmokeTest	1	END	1570142865113	1570142867350

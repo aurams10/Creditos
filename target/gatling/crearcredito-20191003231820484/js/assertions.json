@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.CrearCredito",
+  "simulationId": "crearcredito",
+  "start": 1570144700484,
+  "description": "",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}

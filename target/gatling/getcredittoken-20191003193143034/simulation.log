@@ -1,0 +1,4 @@
+RUN	SmokeTest.getCreditToken	getcredittoken	1570131103034	 	3.0.2
+USER	SmokeTest	1	START	1570131105081	1570131105081
+REQUEST	1		SmokeTest	1570131105130	1570131107186	KO	jsonPath($[*].token).findAll.exists, found nothing
+USER	SmokeTest	1	END	1570131105081	1570131107285
