@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66e71fa9-bec3-47c2-a34d-a83c15921f29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/SmokeTest/createCredits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SmokeTest/createCredits.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/SmokeTest/getTimeLimitInMonthsConsultar.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SmokeTest/getTimeLimitInMonthsConsultar.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,6 +42,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getCurrentAmortizationSchedule.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getTimeLimitInMonthsConsultar.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -96,18 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
               <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-              <folding>
-                <element signature="e#19#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getActiveCredits.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="e#19#50#0" expanded="true" />
               </folding>
@@ -152,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/data/data5.csv" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getActiveCredits.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditLimitClient.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditToken.scala" />
@@ -162,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/requestCancelPayment.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/createCredits.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getTimeLimitInMonthsConsultar.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" />
       </list>
     </option>
   </component>
@@ -288,9 +287,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.2526475" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" sideWeight="0.5021739" side_tool="true" weight="0.23600605" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +302,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23240589" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23240589" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.049099836" />
@@ -382,16 +380,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/data/data1.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getActiveCredits.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,6 +475,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="e#19#50#0" expanded="true" />
           </folding>

@@ -35,7 +35,7 @@ class CrearCredito extends Simulation{
   //setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
   //setUp(scn.inject(constantConcurrentUsers(6) during  (600)).protocols(httpConf)).maxDuration(50)
   setUp(scn.
-    inject(atOnceUsers(6),nothingFor(5  seconds),heavisideUsers(20) during(600 seconds),rampUsers(10) during(600 seconds)))
-    .protocols(httpConf).maxDuration(600 seconds)
+    inject(atOnceUsers(6),nothingFor(5  seconds),heavisideUsers(20) during(600 seconds),rampUsers(10) during(300 seconds)))
+    .protocols(httpConf).maxDuration(1200 seconds)
 
 }
