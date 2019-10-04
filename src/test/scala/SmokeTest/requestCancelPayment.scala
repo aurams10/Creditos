@@ -24,8 +24,8 @@ class requestCancelPayment extends Simulation{
       session}
 
 
-  setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
+  //setUp(scn.inject(atOnceUsers(1))).protocols(httpConf)
 
-  //setUp(scn.inject(constantConcurrentUsers(6) during  (600)).protocols(httpConf)).maxDuration(50)
+ setUp(scn.inject(constantConcurrentUsers(6) during  (600)).protocols(httpConf)).maxDuration(50)
 
 }

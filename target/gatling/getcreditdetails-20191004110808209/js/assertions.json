@@ -1,0 +1,10 @@
+{
+  "simulation": "SmokeTest.getCreditDetails",
+  "simulationId": "getcreditdetails",
+  "start": 1570187288209,
+  "description": "",
+  "scenarios": ["SmokeTest"],
+  "assertions": [
+
+  ]
+}
