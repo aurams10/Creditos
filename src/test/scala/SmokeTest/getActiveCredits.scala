@@ -8,7 +8,7 @@ import scala.concurrent.duration._
 
 class getActiveCredits extends Simulation{
 
-  val data = csv("data/data6.csv").circular
+  val data = csv("data/1.csv").circular
 
   val mapRequest = Map("SCOrigen" -> "Staging", "SCLocation" -> "1,1","country" -> "co","Ocp-Apim-Subscription-Key" -> "47feca78a0f14aa6a46e656cf1d072b1")
 
