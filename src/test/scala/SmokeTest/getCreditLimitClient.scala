@@ -26,7 +26,8 @@ class getCreditLimitClient extends Simulation{
   println(response1)
   session}
 
-  setUp(scn.inject(constantConcurrentUsers(6)during  (1200)).protocols(httpConf)).maxDuration(1200)
+  //setUp(scn.inject(constantConcurrentUsers(6)during  (1200)).protocols(httpConf)).maxDuration(1200)
   //setUp(scn.inject(constantUsersPerSec(6) during  (1200)).protocols(httpConf)).maxDuration(1200)
 
+  setUp(scn.inject(constantConcurrentUsers(16)during (600)).protocols(httpConf)).maxDuration(600)
 }
