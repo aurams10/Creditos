@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e71fa9-bec3-47c2-a34d-a83c15921f29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data4.csv___jb_old___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data4.csv___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +20,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="159">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#19#50#0" expanded="true" />
               </folding>
@@ -50,11 +60,11 @@
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getOriginalAmortizationSchedule.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/requestCancelPayment.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getActiveCredits.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/payCredit.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditLimitClient.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/data/data4.csv" />
         <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala" />
       </list>
     </option>
   </component>
@@ -364,16 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/createCredits.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -391,10 +391,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/CrearCredito.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/SmokeTest/getCreditDetails.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="159">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#19#50#0" expanded="true" />
           </folding>

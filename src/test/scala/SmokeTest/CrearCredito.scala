@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 
 class CrearCredito extends Simulation{
 
-  val data4 = csv("data/data4.csv").circular
+  val data10 = csv("data/data10.csv").circular
   val data5 = csv("data/data5.csv").circular
 
 
@@ -18,7 +18,7 @@ class CrearCredito extends Simulation{
 
 //EScenarios Generar token
   val scn=scenario(scenarioName = "SmokeTest")
-    .feed(data4)
+    .feed(data10)
     .exec(http(requestName="SmokeTest").get("/credits/getCreditToken?creditValue=${creditValue}&months=${months}&frequency=${frequency}&storeId=${storeId}&typeDocument=${typeDocument}&idDocument=${idDocument}")
 
       .check(jsonPath("$.data.token.value").saveAs("value")))
